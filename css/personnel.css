@@ -1,0 +1,57 @@
+/*   
+Specialization
+   */
+  
+   @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+   .circle-shape{ 
+     font-family: Open Sans, sans-serif; 
+     /* margin: 20rem;  */
+     justify-items: center;
+     /* padding-left: 4rem; */
+     background-color:white;
+    opacity: 2;
+     
+   }
+   #circle-shape-example p { 
+     line-height: 1.8; 
+   }
+   #circle-shape-example .curve { 
+     /* width: 33%; height: auto; */
+     min-width: 150px;
+     float: center;
+     margin-right:1rem; 
+     border-radius: 50%;
+     -webkit-shape-outside:circle();
+     shape-outside:circle();
+   }
+ 
+   /* <!-- Our Value --> */
+ 
+   .main{
+     max-inline-size: 80em;
+     padding: var(--metric-box-spacing);
+     margin: auto;
+     background-image: url("/img/picture4.jpg"); color: black;
+   }
+   .sub_picture {
+     max-inline-size: 60%;
+     block-size: auto;
+     inline-size: 60%;
+   }
+   .main {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 1em;
+   }
+   .main section {
+     flex-basis: 22em;
+     flex-grow: 1;
+     padding: var(--metric-box-spacing);
+     background-color: var(--color-off-white);
+     border-radius: var(--metric-radius);
+     box-shadow: var(--generic-shadow);
+   }
+  
+ /*<!-- Our Value End --> */
+ 
