@@ -1,6 +1,9 @@
 
 /*** Spinner Start ***/
 /*** Spinner ***/
+/* Responsive Table Start*/
+@import url("https://cdn.jsdelivr.net/npm/bullframe.css");
+/* Responsive Table  End*/
 #spinner {
     opacity: 0;
     visibility: hidden;
