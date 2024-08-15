@@ -888,6 +888,8 @@
 
 /*** Gallery End ***/
 
+/* clientele */
+
 /*** Tour Booking Start ***/
 .booking {
     background: linear-gradient(rgba(0, 0, 1, 0.5), rgba(0, 0, 1, 0.5)), url(../img/picture\ 10.jpg);
@@ -1325,7 +1327,7 @@
 
 /*** Subscribe Start ***/
 .subscribe {
-    background: linear-gradient(rgba(0, 2, 6, 0.6), rgba(0, 3, 9, 0.6)), url(../img/subscribe-img.jpg);
+    background: linear-gradient(rgba(0, 2, 6, 0.6), rgba(0, 3, 9, 0.6)), url(../img/newsleter.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
